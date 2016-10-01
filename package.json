@@ -1,0 +1,19 @@
+{
+  "name": "theperformancegroup",
+  "version": "1.0.0",
+  "description": "The Performance Group company website",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brettcelestre/theperformancegroup.git"
+  },
+  "author": "Brett Celestre",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brettcelestre/theperformancegroup/issues"
+  },
+  "homepage": "https://github.com/brettcelestre/theperformancegroup#readme"
+}
