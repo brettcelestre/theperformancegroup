@@ -18,15 +18,11 @@ class Footer extends Component {
     console.log('weather is: ', this.props.weather);
   }
   
-  test() {
-    alert('Home button was clicked');
-  }
-  
   render() {
     return (
-      <div className='wrapper'>
+      <footer className='footer'>
         <h2>Footer</h2>
-      </div>
+      </footer>
     );
   }
 }
