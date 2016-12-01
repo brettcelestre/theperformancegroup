@@ -1,2 +1,5 @@
 # Dependency folders
 node_modules/
+
+#Images
+client/assets/imgs/
