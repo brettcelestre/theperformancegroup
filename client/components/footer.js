@@ -4,8 +4,6 @@ import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import { getWeatherData } from '../actions/index.js';
 
-import Home from '../containers/home.js';
-
 class Footer extends Component {
   
   constructor(props) {

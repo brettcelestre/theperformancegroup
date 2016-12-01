@@ -5,6 +5,7 @@ import { bindActionCreators } from 'redux';
 import { getWeatherData } from '../actions/index.js';
 
 import Footer from '../components/footer.js';
+import Header from '../components/header.js';
 
 class App extends Component {
   
@@ -25,15 +26,7 @@ class App extends Component {
   render() {
     return (
       <div className='wrapper'>
-        <h1>The Performance Group</h1>
-        <ul role='nav'>
-          <li><Link to='/home'>Home</Link></li>
-          <li><Link to='/about'>About</Link></li>
-          <li><Link to='/services'>Services</Link></li>
-          <li><Link to='/marketplace'>Market Place</Link></li>
-          <li><Link to='/news'>News</Link></li>
-          <li><Link to='/contact'>Contact Us</Link></li>
-        </ul>
+        <Header />
         {this.props.children}
         <Footer />
       </div>
