@@ -4,7 +4,10 @@
   "description": "The Performance Group company website",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "npm test",
+    "postinstall": "webpack --progress",
+    "build": "webpack --config webpack.dev.config.js --progress --colors --watch",
+    "start": "node server/server.js"
   },
   "repository": {
     "type": "git",
