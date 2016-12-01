@@ -136,6 +136,10 @@ ul, .ul {
           box-sizing: border-box;
 }
 
+/*BOURBON NEAT*/
+/*@import "bourbon/bourbon";*/
+/*@import "neat/neat";*/
+
 /* FONTS */
 /*Stock Sight Title*/
 @import url(https://fonts.googleapis.com/css?family=Julius+Sans+One);
@@ -206,6 +210,27 @@ body {
   min-height: 100%;
   /*background-color: #999999;*/
 }
+
+/* --- HEADER --- */
+.navigation {
+  /*@include outer-container(100%);*/
+  background-color: red;
+  height: 107px;
+}
+.nav-logo {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+.menu {
+  display: inline-flex;
+  float: right;
+  div {
+    height: 107px;
+    padding: 0 15px;
+    background-color: blue;
+  }
+}
+
 
 footer {
   width: 100%;
