@@ -20,9 +20,9 @@ class Footer extends Component {
     return (
       <footer className='footer'>
         <div className='container'>
-          <div className='row'>
-            <div className='three columns testt'>
-              <img src='../assets/imgs/footer-logo.png' width='206px' height='50px' className='footer-logo' />
+          <div className='row footer-content'>
+            <div className='three columns'>
+              <img src='../assets/imgs/footer-logo.png' width='206px' height='50px' />
               <p>
                 6673 Owens Drive
                 Pleasanton, CA 94588
@@ -31,13 +31,13 @@ class Footer extends Component {
               </p>
             </div>
             <div className='three columns'>
-              <h4>holder text</h4>
+              <p>Company</p>
             </div>
             <div className='three columns'>
-              <h4>holder text</h4>
+              <p>Services</p>
             </div>
             <div className='three columns'>
-              <h4>holder text</h4>
+              <p>Market Place</p>
             </div>
           </div>
         </div>
