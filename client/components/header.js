@@ -17,32 +17,34 @@ class Header extends Component {
 
   render() {
     return (
-      <div className='container navigation'>
-        <div className='row'>
-          <div className='four columns nav-logo'>
-            <img src='../assets/imgs/nav-logo.png' width='246px' height='61px' />
-          </div>
-          <div className='eight columns'>
-            <nav className='menu'>
-              <div>
-                <Link to='/home'>Home</Link>
-              </div>
-              <div>
-                <Link to='/about'>About</Link>
-              </div>
-              <div>
-                <Link to='/services'>Services</Link>
-              </div>
-              <div>
-                <Link to='/marketplace'>Market Place</Link>
-              </div>
-              <div>
-                <Link to='/news'>News</Link>
-              </div>
-              <div>
-                <Link to='/contact'>Contact Us</Link>
-              </div>
-            </nav>
+      <div className='navigation'>
+        <div className='container'>
+          <div className='row'>
+            <div className='four columns nav-logo'>
+              <img src='../assets/imgs/nav-logo.png' width='246px' height='61px' />
+            </div>
+            <div className='eight columns'>
+              <nav className='menu'>
+                <div>
+                  <Link to='/home'>Home</Link>
+                </div>
+                <div>
+                  <Link to='/about'>About</Link>
+                </div>
+                <div>
+                  <Link to='/services'>Services</Link>
+                </div>
+                <div>
+                  <Link to='/marketplace'>Market Place</Link>
+                </div>
+                <div>
+                  <Link to='/news'>News</Link>
+                </div>
+                <div>
+                  <Link to='/contact'>Contact Us</Link>
+                </div>
+              </nav>
+            </div>
           </div>
         </div>
       </div>
