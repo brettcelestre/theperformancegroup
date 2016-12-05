@@ -10,10 +10,6 @@ class Header extends Component {
     super(props);
     this.city = '';
   }
-  
-  alertWeather() {
-    console.log('weather is: ', this.props.weather);
-  }
 
   render() {
     return (
@@ -25,24 +21,24 @@ class Header extends Component {
             </div>
             <div className='eight columns'>
               <nav className='menu'>
-                <div>
-                  <Link to='/home'>Home</Link>
-                </div>
-                <div>
-                  <Link to='/about'>About</Link>
-                </div>
-                <div>
-                  <Link to='/services'>Services</Link>
-                </div>
-                <div>
-                  <Link to='/marketplace'>Market Place</Link>
-                </div>
-                <div>
-                  <Link to='/news'>News</Link>
-                </div>
-                <div>
-                  <Link to='/contact'>Contact Us</Link>
-                </div>
+                <Link to='/home'>
+                  <div>Home</div>
+                </Link>
+                <Link to='/about'>
+                  <div>About</div>
+                </Link>
+                <Link to='/services'>
+                  <div>Services</div>
+                </Link>
+                <Link to='/marketplace'>
+                  <div>Market Place</div>
+                </Link>
+                <Link to='/news'>
+                  <div>News</div>
+                </Link>
+                <Link to='/contact'>
+                  <div>Contact Us</div>
+                </Link>
               </nav>
             </div>
           </div>
