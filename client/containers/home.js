@@ -42,58 +42,71 @@ class Home extends Component {
 				<div className='banner'>
 				</div>
 				
-				<div className='container'>
+				<div className='container section-spacer'>
 					<div className='row'>
-						<h4>Why We Started</h4>
+						<h3 className='center'>Why We Started</h3>
 					</div>
-					<div className='row'>
+					<div className='row copy'>
 						<p>The evolution of the traditional food broker has led to the formation of large Regional and National organizations. Regardless of size, these companies were all faced with the same problems:</p>
 					</div>
 					<div className='row'>
 						<div className='one-third column'>
-							<h6>logo</h6>
+							<img src='http://image.flaticon.com/icons/svg/290/290180.svg' width='60%' height='60%' />
+							<h6>Basic shift from eating away from home</h6>
 						</div>
 						<div className='one-third column'>
-							<h6>logo</h6>
+							<img src='http://image.flaticon.com/icons/svg/290/290180.svg' width='60%' height='60%' />
+							<h6>Value shopping has led to alternative classes of trade</h6>
 						</div>
 						<div className='one-third column'>
-							<h6>logo</h6>
-						</div>
-					</div>
-					<div className='row'>
-						<div className='one-third column'>
-							<h6>logo</h6>
-						</div>
-						<div className='one-third column'>
-							<h6>logo</h6>
-						</div>
-						<div className='one-third column'>
-							<h6>logo</h6>
+							<img src='http://image.flaticon.com/icons/svg/290/290180.svg' width='60%' height='60%' />
+							<h6>The move from relationship "selling" to "transactions"</h6>
 						</div>
 					</div>
 					<div className='row'>
 						<div className='one-third column'>
-							<h6>logo</h6>
+							<img src='http://image.flaticon.com/icons/svg/290/290180.svg' width='60%' height='60%' />
+							<h6>Poor succession planning</h6>
 						</div>
 						<div className='one-third column'>
-							<h6>logo</h6>
+							<img src='http://image.flaticon.com/icons/svg/290/290180.svg' width='60%' height='60%' />
+							<h6>Retailer centralization</h6>
 						</div>
 						<div className='one-third column'>
-							<h6>logo</h6>
+							<img src='http://image.flaticon.com/icons/svg/290/290180.svg' width='60%' height='60%' />
+							<h6>Manufacturer consolidations</h6>
+						</div>
+					</div>
+					<div className='row'>
+						<div className='one-third column'>
+							<img src='http://image.flaticon.com/icons/svg/290/290180.svg' width='60%' height='60%' />
+							<h6>Difficulty in balancing the requirements of both the manufacturer and the retailer</h6>
+						</div>
+						<div className='one-third column'>
+							<img src='http://image.flaticon.com/icons/svg/290/290180.svg' width='60%' height='60%' />
+							<h6>High cost of operation</h6>
+						</div>
+						<div className='one-third column'>
+							<img src='http://image.flaticon.com/icons/svg/290/290180.svg' width='60%' height='60%' />
+							<h6>Decline in brokerage rates</h6>
 						</div>
 					</div>
 				</div>
 				
 				<div className='key-dynamics'>
-					<div className='container'>
+					<div className='container section-spacer'>
 						<div className='row'>
-							<h4>Key Dynamics</h4>
+							<h3 className='center'>Key Dynamics</h3>
 						</div>
-						<div className='row'>
-							<p> copy </p>
+						<div className='row copy'>
+							<p>It became clear that a new sales model must appear, which has to do a better job of balancing	efficiency and effectiveness. These new companies will be teamed for specific results. Process	will be the language. Resources will be shared through computing power and telecommunication. The new organizations will be based on smart people, with a combination of character and competency. With these things in mind, the Performance Group partners elected to take a new path, where the services we offer will be based on value, not size. This new model maintains at all time our commitment to our manufacturers.They in turn must understand some of the key dynamics shaping the industry:
+							</p>
 						</div>
-						<div className='row'>
-							<p> bullet point copy </p>
+						<div className='row dynamic-bullets'>
+							<p>• Shelf management is turning into shelf marketing</p>
+							<p>• Retail coverage is changing from regular store calls to execution on demand</p>
+							<p>• Technology and shared information will be used to deploy resources where and when needed</p>
+							<p>• The sales service organization ( formerly called the broker) must be in a position to illustrate not only the cost for specific services, but also the value of the services.</p>
 						</div>
 					</div>
 				</div>
@@ -103,14 +116,14 @@ class Home extends Component {
 						<div className='row'>
 							<div className='eight columns'>
 								<div className='row'>
-									<h2>Lets Talk</h2>
+									<h3>Lets Talk</h3>
 								</div>
 								<div className='row'>
-									<p> copy </p>
+									<p>We feel the Performance Group has addressed many of the keys areas that have adversely effected the traditional food broker. Please keep us in mind when you're looking at alternatives to your current representation.</p>
 								</div>
 							</div>
 							<div className='four columns'>
-								<button>CONTACT</button>
+								<button className='contact-button'>CONTACT</button>
 							</div>
 						</div>
 					</div>
