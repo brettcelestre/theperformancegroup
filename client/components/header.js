@@ -21,22 +21,22 @@ class Header extends Component {
             </div>
             <div className='eight columns'>
               <nav className='menu'>
-                <Link to='/home'>
+                <Link to='/home' className='link'>
                   <div>Home</div>
                 </Link>
-                <Link to='/about'>
+                <Link to='/about' className='link'>
                   <div>About</div>
                 </Link>
-                <Link to='/services'>
+                <Link to='/services' className='link'>
                   <div>Services</div>
                 </Link>
-                <Link to='/marketplace'>
+                <Link to='/marketplace' className='link'>
                   <div>Market Place</div>
                 </Link>
-                <Link to='/news'>
+                <Link to='/news' className='link'>
                   <div>News</div>
                 </Link>
-                <Link to='/contact'>
+                <Link to='/contact' className='link'>
                   <div>Contact Us</div>
                 </Link>
               </nav>

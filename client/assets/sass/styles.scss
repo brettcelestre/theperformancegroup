@@ -147,26 +147,40 @@ ul, .ul {
   padding: 0 5%;
 }
 
-/*BOURBON NEAT*/
-/*@import "bourbon/bourbon";*/
-/*@import "neat/neat";*/
+/* COLORS */
+/*
+  RED - #822d2b
+  GOLD - #d8b771
+  TAN - #fefbd9
+  BLUE - #282e79
+  OFF WHITE - #f9f9f9
+  LIGHT GREY - #383838
+  DARK GREY - #282828
+*/
 
 /* FONTS */
-/*Stock Sight Title*/
-@import url(https://fonts.googleapis.com/css?family=Julius+Sans+One);
-/*Form and Main Fonts*/
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+/* COLORS
+  DARK FONT - #353535
+*/
+
+/* Roboto */
+/*font-family: 'Roboto', sans-serif;*/
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i);
 
 /* Mixins */
-@mixin input-form($weight, $size, $width, $height){
-  width: $width;
-  height: $height;
-  font-family: Open Sans;
+@mixin font-styles($family, $weight, $size, $color, $spacing, $line-height, $h-color, $h-bg, $h-weight){
+  font-family: $family;
   font-weight: $weight;
   font-size: $size;
-  padding-left: 6px;
-  letter-spacing: .5px;
-  color: #333333;
+  color: $color;
+  letter-spacing: $spacing;
+  line-height: $line-height;
+  &:hover{
+    color: $h-color;
+    background-color: $h-bg;
+    font-weight: $h-weight;
+    cursor: pointer;
+  }
 }
 
 @mixin login-buttons($width, $height){
@@ -190,24 +204,6 @@ ul, .ul {
   }
 }
 
-@mixin icon($width, $height){
-  width: $width;
-  height: $height;
-  display: inline-block;
-  -webkit-mask-size: cover;
-  mask-size: cover;
-}
-
-@mixin chart-text($size, $weight, $padding, $margin, $spacing, $color){
-  font-family: Open Sans;
-  font-weight: $weight;
-  font-size: $size;
-  padding: $padding;
-  margin: $margin;
-  letter-spacing: $spacing;
-  color: $color;
-}
-
 
 html, body {
   height: 100%;
@@ -218,6 +214,10 @@ html, body {
 
 body {
   min-height: 100%;
+}
+
+.link {
+  text-decoration: none;
 }
 
 /* --- HEADER --- */
@@ -232,12 +232,9 @@ body {
   display: inline-flex;
   float: right;
   div {
+    @include font-styles('Roboto', 400, .9rem, #1a1a1a, 1px, 90px, #353535, #f6f6f6, 400);
     height: 90px;
     padding: 0 15px;
-    line-height: 90px;
-  }
-  div:hover {
-    background-color: #fafafa;
   }
 }
 
@@ -291,4 +288,15 @@ footer {
     margin-top: 25px;
     color: #838383;
   }
+}
+
+/* --- CONTACT US  --- */
+.contact-us {
+  margin: 0;
+}
+
+#map {
+  width: 100%;
+  height: 400px;
+  background-color: grey;
 }
