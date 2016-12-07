@@ -31,7 +31,7 @@ class Header extends Component {
                   <div>Services</div>
                 </Link>
                 <Link to='/marketplace' className='link'>
-                  <div>Market Place</div>
+                  <div>Marketplace</div>
                 </Link>
                 <Link to='/news' className='link'>
                   <div>News</div>

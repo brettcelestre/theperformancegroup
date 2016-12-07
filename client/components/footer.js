@@ -24,9 +24,9 @@ class Footer extends Component {
             <div className='three columns'>
               <img src='../assets/imgs/footer-logo.png' width='206px' height='50px' />
               <p>
-                6673 Owens Drive
-                Pleasanton, CA 94588
-                Email: contact@tpgsales.com
+                6673 Owens Drive<br />
+                Pleasanton, CA 94588<br />
+                Email: contact@tpgsales.com<br />
                 Phone: (925) 555-5555
               </p>
             </div>
@@ -37,7 +37,7 @@ class Footer extends Component {
               <p>Services</p>
             </div>
             <div className='three columns'>
-              <p>Market Place</p>
+              <p>Markeplace</p>
             </div>
           </div>
         </div>
