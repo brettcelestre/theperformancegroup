@@ -259,6 +259,57 @@ body {
   top: 50%;
   /*transform: translateY(-50%);*/ }
 
+/* --- MISSION --- */
+.mission-photo {
+  width: 100%;
+  height: 300px;
+  background-image: url("../imgs/office-stock.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.mission-terms div {
+  /*@import url(https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i);*/
+  /*@mixin font-styles($family, $weight, $size, $color, $spacing, $line-height, $h-color, $h-bg, $h-weight){*/
+  font-family: "Roboto";
+  font-weight: 500i;
+  font-size: 1.5rem;
+  color: #1a1a1a;
+  letter-spacing: 1.5px;
+  line-height: 2rem;
+  font-style: italic;
+  text-align: center; }
+
+/* --- HISTORY --- */
+.history {
+  padding: 30px 0;
+  width: 100%;
+  background-color: #f9f9f9; }
+
+.history-content h3 {
+  text-align: center; }
+
+.history-content .row {
+  margin: 15px 0; }
+
+.history-content div .two {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 1rem;
+  color: #1a1a1a;
+  letter-spacing: 1px;
+  line-height: 1.4rem;
+  text-align: right;
+  padding-right: 10px; }
+
+.history-content div .ten {
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 1rem;
+  color: #1a1a1a;
+  letter-spacing: 0.75px;
+  line-height: 1.4rem; }
+
 /* --- FOOTER --- */
 footer {
   width: 100%;
