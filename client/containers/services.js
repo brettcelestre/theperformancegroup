@@ -5,33 +5,11 @@ import { getWeatherData } from '../actions/index.js';
 
 
 class Services extends Component {
-  // States
-  constructor(props) {
-    super(props);
-      
-    this.state = {
-      city: ''
-    }
-    
-    this.onFormSubmit = this.onFormSubmit.bind(this);
-    this.onInputChange = this.onInputChange.bind(this);
-  }
-
-  onInputChange(event) {
-    this.setState({ city: event.target.value });
-  }
-
-  // onFormSubmit
-  onFormSubmit(event) {
-    event.preventDefault();
-
-    console.log('submitting:', this.state.city);
-    
-    // Invokes getWeatherData from '../actions/index.js' - imported at top
-    this.props.getWeatherData(this.state.city);
-  }    
-
-  // Render
+  
+  componentDidMount() {
+    window.scrollTo(0,0);
+  }  
+  
   render() {
     return (
       <div className='services'>

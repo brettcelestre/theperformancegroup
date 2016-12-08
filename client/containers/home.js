@@ -5,31 +5,10 @@ import { getWeatherData } from '../actions/index.js';
 
 
 class Home extends Component {
-	// States
-	constructor(props) {
-		super(props);
-			
-		this.state = {
-			city: ''
-		}
-		
-		this.onFormSubmit = this.onFormSubmit.bind(this);
-		this.onInputChange = this.onInputChange.bind(this);
+
+	componentDidMount() {
+	  window.scrollTo(0,0);
 	}
-
-	onInputChange(event) {
-		this.setState({ city: event.target.value });
-	}
-
-	// onFormSubmit
-	onFormSubmit(event) {
-		event.preventDefault();
-
-		console.log('submitting:', this.state.city);
-		
-		// Invokes getWeatherData from '../actions/index.js' - imported at top
-		this.props.getWeatherData(this.state.city);
-	}		 
 
  	// Render
 	render() {
@@ -101,11 +80,11 @@ class Home extends Component {
 						<div className='row copy'>
 							It became clear that a new sales model must appear, which has to do a better job of balancing	efficiency and effectiveness. These new companies will be teamed for specific results. Process	will be the language. Resources will be shared through computing power and telecommunication. The new organizations will be based on smart people, with a combination of character and competency. With these things in mind, the Performance Group partners elected to take a new path, where the services we offer will be based on value, not size. This new model maintains at all time our commitment to our manufacturers.They in turn must understand some of the key dynamics shaping the industry:
 						</div>
-						<div className='row dynamic-bullets'>
-							<p>• Shelf management is turning into shelf marketing</p>
-							<p>• Retail coverage is changing from regular store calls to execution on demand</p>
-							<p>• Technology and shared information will be used to deploy resources where and when needed</p>
-							<p>• The sales service organization ( formerly called the broker) must be in a position to illustrate not only the cost for specific services, but also the value of the services.</p>
+						<div className='row dynamic-bullets copy'>
+							• Shelf management is turning into shelf marketing.<br />
+							• Retail coverage is changing from regular store calls to execution on demand.<br />
+							• Technology and shared information will be used to deploy resources where and when needed.<br />
+							• The sales service organization ( formerly called the broker) must be in a position to illustrate not only the cost for specific services, but also the value of the services.
 						</div>
 					</div>
 				</div>

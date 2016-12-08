@@ -5,36 +5,32 @@ import { getWeatherData } from '../actions/index.js';
 
 
 class Contact extends Component {
-  // States
-  constructor(props) {
-    super(props);
-      
-    this.state = {
-      city: ''
-    }
-    
-    this.onFormSubmit = this.onFormSubmit.bind(this);
-    this.onInputChange = this.onInputChange.bind(this);
+
+  componentDidMount() {
+    window.scrollTo(0,0);
   }
-
-  onInputChange(event) {
-    this.setState({ city: event.target.value });
-  }
-
-  // onFormSubmit
-  onFormSubmit(event) {
-    event.preventDefault();
-
-    console.log('submitting:', this.state.city);
-    
-    // Invokes getWeatherData from '../actions/index.js' - imported at top
-    this.props.getWeatherData(this.state.city);
-  }    
+  
+  // componentWillMount() {
+  //   var uluru = {lat: -25.363, lng: 131.044};
+  //   var map = new google.maps.Map(document.getElementById('map'), {
+  //     zoom: 4,
+  //     center: uluru
+  //   });
+  //   var marker = new google.maps.Marker({
+  //     position: uluru,
+  //     map: map
+  //   });
+  // }
 
   // Render
   render() {
     return (
-      <h2>Contact Us</h2>
+      <div className='contact-us'>
+        <div id='map'>
+        </div>
+        
+        <h2>Contact Us</h2>
+      </div>
     );  
   }
 }
