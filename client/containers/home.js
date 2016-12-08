@@ -44,10 +44,10 @@ class Home extends Component {
 				
 				<div className='container section-spacer'>
 					<div className='row'>
-						<h3 className='center'>Why We Started</h3>
+						<h3 className='section-header'>Why We Started</h3>
 					</div>
 					<div className='row copy'>
-						<p>The evolution of the traditional food broker has led to the formation of large Regional and National organizations. Regardless of size, these companies were all faced with the same problems:</p>
+						The evolution of the traditional food broker has led to the formation of large Regional and National organizations. Regardless of size, these companies were all faced with the same problems:
 					</div>
 					<div className='row'>
 						<div className='one-third column'>
@@ -96,11 +96,10 @@ class Home extends Component {
 				<div className='key-dynamics'>
 					<div className='container section-spacer'>
 						<div className='row'>
-							<h3 className='center'>Key Dynamics</h3>
+							<h3 className='section-header'>Key Dynamics</h3>
 						</div>
 						<div className='row copy'>
-							<p>It became clear that a new sales model must appear, which has to do a better job of balancing	efficiency and effectiveness. These new companies will be teamed for specific results. Process	will be the language. Resources will be shared through computing power and telecommunication. The new organizations will be based on smart people, with a combination of character and competency. With these things in mind, the Performance Group partners elected to take a new path, where the services we offer will be based on value, not size. This new model maintains at all time our commitment to our manufacturers.They in turn must understand some of the key dynamics shaping the industry:
-							</p>
+							It became clear that a new sales model must appear, which has to do a better job of balancing	efficiency and effectiveness. These new companies will be teamed for specific results. Process	will be the language. Resources will be shared through computing power and telecommunication. The new organizations will be based on smart people, with a combination of character and competency. With these things in mind, the Performance Group partners elected to take a new path, where the services we offer will be based on value, not size. This new model maintains at all time our commitment to our manufacturers.They in turn must understand some of the key dynamics shaping the industry:
 						</div>
 						<div className='row dynamic-bullets'>
 							<p>• Shelf management is turning into shelf marketing</p>
