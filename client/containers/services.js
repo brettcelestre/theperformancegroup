@@ -34,7 +34,16 @@ class Services extends Component {
   // Render
   render() {
     return (
-      <h2>Services</h2>
+      <div className='services'>
+      
+        <div className='drop-shadow'>
+        </div>
+      
+        <div className='services-banner'>
+        </div>
+      
+        <h2>Services</h2>
+      </div>
     );  
   }
 }
