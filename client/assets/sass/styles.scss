@@ -255,6 +255,9 @@ body {
     height: 90px;
     padding: 0 15px;
   }
+  /*div:hover {
+    transition: all 0.3s ease-out;
+  }*/
 }
 
 /* --- HOME --- */
@@ -427,7 +430,7 @@ footer {
   }
   span:hover {
     color: white;
-    /*transition: all 0.3s;*/
+    transition: all 0.3s;
   }
 }
 

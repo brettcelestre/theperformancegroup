@@ -248,7 +248,10 @@ body {
 
 .menu {
   display: inline-flex;
-  float: right; }
+  float: right;
+  /*div:hover {
+    transition: all 0.3s ease-out;
+  }*/ }
   .menu div {
     font-family: "Roboto";
     font-weight: 400;
@@ -465,7 +468,7 @@ footer {
 
 .footer-link span:hover {
   color: white;
-  /*transition: all 0.3s;*/ }
+  transition: all 0.3s; }
 
 .copyright {
   padding: 15px 0;
