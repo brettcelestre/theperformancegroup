@@ -30,12 +30,24 @@ class Footer extends Component {
             </div>
             <div className='three columns'>
               <span className='footer-title'>COMPANY</span><br /><br />
-              About<br />
-              News<br />
-              Contact
+              <Link to='/about' className='link footer-link'>
+                <span>About</span>
+              </Link><br />
+              <Link to='/news' className='link footer-link'>
+                <span>News</span>
+              </Link><br />
+              <Link to='/contact' className='link footer-link'>
+                <span>Contact</span>
+              </Link>
             </div>
             <div className='three columns'>
               <span className='footer-title'>SERVICES</span><br /><br />
+              <Link to='/about' className='link footer-link'>
+                <span>FAKE LINK</span>
+              </Link><br />
+              <Link to='/news' className='link footer-link'>
+                <span>FAKE LINK 2</span>
+              </Link>
             </div>
             <div className='three columns'>
               <span className='footer-title'>MARKETPLACE</span><br /><br />

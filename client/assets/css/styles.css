@@ -458,6 +458,15 @@ footer {
 .footer-content :nth-child(n+2):nth-child(-n+4) {
   padding-top: 10px; }
 
+.footer-link span {
+  display: inline-block;
+  margin: 0;
+  color: #858585; }
+
+.footer-link span:hover {
+  color: white;
+  /*transition: all 0.3s;*/ }
+
 .copyright {
   padding: 15px 0;
   font-family: "Roboto";
