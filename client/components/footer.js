@@ -22,27 +22,32 @@ class Footer extends Component {
         <div className='container'>
           <div className='row footer-content'>
             <div className='three columns'>
-              <img src='../assets/imgs/footer-logo.png' width='206px' height='50px' />
-              <p>
-                6673 Owens Drive<br />
-                Pleasanton, CA 94588<br />
-                Email: contact@tpgsales.com<br />
-                Phone: (925) 555-5555
-              </p>
+              <img src='../assets/imgs/footer-logo.png' width='206px' height='50px' /><br />
+              6673 Owens Drive<br />
+              Pleasanton, CA 94588<br />
+              Email: contact@tpgsales.com<br />
+              Phone: (925) 555-5555
             </div>
             <div className='three columns'>
-              <p>Company</p>
+              <span className='footer-title'>COMPANY</span><br /><br />
+              About<br />
+              News<br />
+              Contact
             </div>
             <div className='three columns'>
-              <p>Services</p>
+              <span className='footer-title'>SERVICES</span><br /><br />
             </div>
             <div className='three columns'>
-              <p>Markeplace</p>
+              <span className='footer-title'>MARKETPLACE</span><br /><br />
+              Clients<br />
+              Customers
             </div>
           </div>
         </div>
-        <div className='container'>
-          <h5>2016 THE PERFORMANCE GROUP. ALL RIGHTS RESERVED.</h5>
+        <div className='divider-dark'>
+        </div>
+        <div className='container copyright'>
+          Copyright © 2016 The Performance Group. All rights reserved.
         </div>
       </footer>
     );
