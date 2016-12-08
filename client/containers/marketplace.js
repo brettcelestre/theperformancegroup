@@ -34,7 +34,16 @@ class MarketPlace extends Component {
   // Render
   render() {
     return (
-      <h2>MarketPlace</h2>
+      <div className='marketplace'>
+      
+        <div className='drop-shadow'>
+        </div>
+      
+        <div className='marketplace-banner'>
+        </div>
+      
+        <h2>Services</h2>
+      </div>
     );  
   }
 }
