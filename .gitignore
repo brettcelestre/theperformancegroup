@@ -3,5 +3,6 @@ node_modules/
 
 #Images
 client/assets/imgs/
+client/assets/.DS_Store
 
 npm-debug.log
