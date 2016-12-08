@@ -136,16 +136,7 @@ ul, .ul {
           box-sizing: border-box;
 }
 
-.center {
-  text-align: center;
-}
-.section-spacer {
-  padding-top: 40px;
-  padding-bottom: 50px;
-}
-.copy {
-  padding: 0 5%;
-}
+
 
 /* COLORS */
 /*
@@ -160,7 +151,8 @@ ul, .ul {
 
 /* FONTS */
 /* COLORS
-  DARK FONT - #353535
+  DARK FONT 1 - #1a1a1a
+  DARK FONT 2 - #353535
 */
 
 /* Roboto */
@@ -192,27 +184,43 @@ ul, .ul {
   line-height: $line-height;
 }
 
-@mixin login-buttons($width, $height){
-  font-family: Open Sans;
-  font-weight: 300;
-  font-size: .85rem;
-  margin-bottom: 5px;
-  letter-spacing: .5px;
-  color: #e6e6e6;
-  background-color: #333333;
-  width: $width;
-  height: $height;
-  padding: 0;
-  border: none;
-  border-radius: 1px;
-  
-  &:hover{
-    color: #e6e6e6;
-    background-color: #666666;
-    cursor: pointer;
-  }
+.center {
+  text-align: center;
 }
+.v-center {
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
 
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+
+  align-items: center;
+}
+.section-spacer {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.section-header {
+  @include font-styles('Roboto', 400, 2.1rem, #353535, 1px, 2rem);
+  text-align: center;
+  padding-bottom: 15px;
+}
+.copy {
+  /*@include font-styles('Roboto', 100, 1.15rem, black, .75px, 1.9rem);*/
+  @include font-styles('Roboto', 300, 1.15rem, #353535, .75px, 1.9rem);
+  padding: 0 5%;
+}
+.link {
+  text-decoration: none;
+}
+.divider {
+  width: 100%;
+  height: 1px;
+  background-color: #e3e3e3;
+  margin: 60px 0;
+}
 
 html, body {
   height: 100%;
@@ -223,10 +231,6 @@ html, body {
 
 body {
   min-height: 100%;
-}
-
-.link {
-  text-decoration: none;
 }
 
 /* --- HEADER --- */
@@ -293,33 +297,52 @@ body {
   background-size: cover;
 }
 .mission-terms div {
-  /*@import url(https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i);*/
-    /*@mixin font-styles($family, $weight, $size, $color, $spacing, $line-height, $h-color, $h-bg, $h-weight){*/
   @include font-styles('Roboto', 500i, 1.5rem, #1a1a1a, 1.5px, 2rem);
+  font-style: italic;
+  text-align: center;
+}
+.mission .offer {
+  margin-top: 25px;
+  /*Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i);*/
+  /*@mixin font-styles($family, $weight, $size, $color, $spacing, $line-height, */
+  @include font-styles('Roboto', 300, 1rem, #1a1a1a, 1px, 1.3rem);
+  text-align: center;
+}
+.offer-copy {
+  @include font-styles('Roboto', 100, 1.3rem, black, 1px, 1.4rem);
+  text-align: left;
+}
+.offer-img {
+  width: 100%;
+  max-width: 633px;
+  max-height: 300px;
+  text-align: center;
+}
+.promise {
+  margin-top: 80px;
+  margin-bottom: 30px;
+  @include font-styles('Roboto', 300, 1.5rem, black, 1px, 1.6rem);
   font-style: italic;
   text-align: center;
 }
 
 /* --- HISTORY --- */
 .history {
-  padding: 30px 0;
+  /*padding: 30px 0;*/
   width: 100%;
   background-color: #f9f9f9;
 }
 .history-content {
-  h3 {
-    text-align: center;
-  }
   .row {
     margin: 15px 0;
   }
   div .two {
-    @include font-styles('Roboto', 700, 1rem, #1a1a1a, 1px, 1.4rem);
+    @include font-styles('Roboto', 700, 1rem, #1a1a1a, 1px, 1.9rem);
     text-align: right;
     padding-right: 10px;
   }
   div .ten {
-    @include font-styles('Roboto', 300, 1rem, #1a1a1a, .75px, 1.4rem);
+    padding: 0;
   }
 }
 
@@ -349,3 +372,4 @@ footer {
   height: 400px;
   background-color: grey;
 }
+

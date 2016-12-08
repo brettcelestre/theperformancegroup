@@ -160,16 +160,6 @@ ul, .ul {
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
-.center {
-  text-align: center; }
-
-.section-spacer {
-  padding-top: 40px;
-  padding-bottom: 50px; }
-
-.copy {
-  padding: 0 5%; }
-
 /* COLORS */
 /*
   RED - #822d2b
@@ -182,11 +172,57 @@ ul, .ul {
 */
 /* FONTS */
 /* COLORS
-  DARK FONT - #353535
+  DARK FONT 1 - #1a1a1a
+  DARK FONT 2 - #353535
 */
 /* Roboto */
 /*font-family: 'Roboto', sans-serif;*/
 /* Mixins */
+.center {
+  text-align: center; }
+
+.v-center {
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  align-items: center; }
+
+.section-spacer {
+  padding-top: 70px;
+  padding-bottom: 70px; }
+
+.section-header {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 2.1rem;
+  color: #353535;
+  letter-spacing: 1px;
+  line-height: 2rem;
+  text-align: center;
+  padding-bottom: 15px; }
+
+.copy {
+  /*@include font-styles('Roboto', 100, 1.15rem, black, .75px, 1.9rem);*/
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 1.15rem;
+  color: #353535;
+  letter-spacing: 0.75px;
+  line-height: 1.9rem;
+  padding: 0 5%; }
+
+.link {
+  text-decoration: none; }
+
+.divider {
+  width: 100%;
+  height: 1px;
+  background-color: #e3e3e3;
+  margin: 60px 0; }
+
 html, body {
   height: 100%;
   margin: 0;
@@ -195,9 +231,6 @@ html, body {
 
 body {
   min-height: 100%; }
-
-.link {
-  text-decoration: none; }
 
 /* --- HEADER --- */
 .navigation {
@@ -269,8 +302,6 @@ body {
   background-size: cover; }
 
 .mission-terms div {
-  /*@import url(https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i);*/
-  /*@mixin font-styles($family, $weight, $size, $color, $spacing, $line-height, $h-color, $h-bg, $h-weight){*/
   font-family: "Roboto";
   font-weight: 500i;
   font-size: 1.5rem;
@@ -280,14 +311,50 @@ body {
   font-style: italic;
   text-align: center; }
 
+.mission .offer {
+  margin-top: 25px;
+  /*Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i);*/
+  /*@mixin font-styles($family, $weight, $size, $color, $spacing, $line-height, */
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 1rem;
+  color: #1a1a1a;
+  letter-spacing: 1px;
+  line-height: 1.3rem;
+  text-align: center; }
+
+.offer-copy {
+  font-family: "Roboto";
+  font-weight: 100;
+  font-size: 1.3rem;
+  color: black;
+  letter-spacing: 1px;
+  line-height: 1.4rem;
+  text-align: left; }
+
+.offer-img {
+  width: 100%;
+  max-width: 633px;
+  max-height: 300px;
+  text-align: center; }
+
+.promise {
+  margin-top: 80px;
+  margin-bottom: 30px;
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 1.5rem;
+  color: black;
+  letter-spacing: 1px;
+  line-height: 1.6rem;
+  font-style: italic;
+  text-align: center; }
+
 /* --- HISTORY --- */
 .history {
-  padding: 30px 0;
+  /*padding: 30px 0;*/
   width: 100%;
   background-color: #f9f9f9; }
-
-.history-content h3 {
-  text-align: center; }
 
 .history-content .row {
   margin: 15px 0; }
@@ -298,17 +365,12 @@ body {
   font-size: 1rem;
   color: #1a1a1a;
   letter-spacing: 1px;
-  line-height: 1.4rem;
+  line-height: 1.9rem;
   text-align: right;
   padding-right: 10px; }
 
 .history-content div .ten {
-  font-family: "Roboto";
-  font-weight: 300;
-  font-size: 1rem;
-  color: #1a1a1a;
-  letter-spacing: 0.75px;
-  line-height: 1.4rem; }
+  padding: 0; }
 
 /* --- FOOTER --- */
 footer {
