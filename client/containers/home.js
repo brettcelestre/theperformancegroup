@@ -117,12 +117,15 @@ class Home extends Component {
 								<div className='row'>
 									<h3>Lets Talk</h3>
 								</div>
-								<div className='row'>
-									<p>We feel the Performance Group has addressed many of the keys areas that have adversely effected the traditional food broker. Please keep us in mind when you're looking at alternatives to your current representation.</p>
+								
+								<div className='row copy'>
+									We feel the Performance Group has addressed many of the keys areas that have adversely effected the traditional food broker. Please keep us in mind when you're looking at alternatives to your current representation.
 								</div>
+								
 							</div>
+							
 							<div className='four columns'>
-								<button className='contact-button'>CONTACT</button>
+								<button className='contact-button'>Contact</button>
 							</div>
 						</div>
 					</div>

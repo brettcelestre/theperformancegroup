@@ -163,6 +163,7 @@ ul, .ul {
 /* COLORS */
 /*
   RED - #822d2b
+  RED BRIGHT - #c01915
   GOLD - #d8b771
   TAN - #fefbd9
   BLUE - #282e79
@@ -285,12 +286,42 @@ body {
 
 .lets-talk {
   width: 100%;
+  padding-top: 55px;
+  padding-bottom: 55px;
   background-color: #383838; }
+  .lets-talk .copy {
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 0.95rem;
+    color: white;
+    letter-spacing: 1px;
+    line-height: 1.4rem;
+    padding: 0; }
+  .lets-talk .four {
+    height: 85px;
+    text-align: center; }
+
+.lets-talk h3 {
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 2rem;
+  color: #27b8c5;
+  letter-spacing: 1px;
+  line-height: 1.9rem;
+  /*padding: 10px 10px;*/ }
 
 .contact-button {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 1.1rem;
+  color: white;
+  letter-spacing: 1px;
+  line-height: 1rem;
   position: relative;
-  top: 50%;
-  /*transform: translateY(-50%);*/ }
+  margin-top: 30px;
+  height: 50px;
+  /*transform: translateY(-50%);*/
+  background-color: #27b8c5; }
 
 /* --- MISSION --- */
 .mission-photo {

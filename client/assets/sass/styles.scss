@@ -141,6 +141,7 @@ ul, .ul {
 /* COLORS */
 /*
   RED - #822d2b
+  RED BRIGHT - #c01915
   GOLD - #d8b771
   TAN - #fefbd9
   BLUE - #282e79
@@ -279,12 +280,29 @@ body {
 
 .lets-talk {
   width: 100%;
+  padding-top: 55px;
+  padding-bottom: 55px;
   background-color: #383838;
+  .copy {
+    @include font-styles('Roboto', 300, .95rem, white, 1px, 1.4rem);
+    padding: 0;
+  }
+  .four {
+    height: 85px;
+    text-align: center;
+  }
+}
+.lets-talk h3 {
+  @include font-styles('Roboto', 300, 2rem, #27b8c5, 1px, 1.9rem);
+  /*padding: 10px 10px;*/
 }
 .contact-button {
+  @include font-styles('Roboto', 500, 1.1rem, white, 1px, 1rem);
   position: relative;
-  top: 50%;
+  margin-top: 30px;
+  height: 50px;
   /*transform: translateY(-50%);*/
+  background-color: #27b8c5;
 }
 
 /* --- MISSION --- */
