@@ -235,6 +235,7 @@ class About extends Component {
 							Jeremiah Hilton
 						</div>
 						<div className='member'>
+							<img src='../assets/imgs/bios/missing.jpg' className='bio-img' />
 							Rich Mott
 						</div>
 					</div>
@@ -274,6 +275,7 @@ class About extends Component {
 							Sherry Copeland
 						</div>
 						<div className='member'>
+							<img src='../assets/imgs/bios/missing.jpg' className='bio-img' />
 							Adam Martinez
 						</div>
 						<div className='member'>
