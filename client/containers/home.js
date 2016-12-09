@@ -25,49 +25,49 @@ class Home extends Component {
 					<div className='row'>
 						<h3 className='section-header'>Why We Started</h3>
 					</div>
-					<div className='row copy'>
+					<div className='row copy why-copy'>
 						The evolution of the traditional food broker has led to the formation of large Regional and National organizations. Regardless of size, these companies were all faced with the same problems:
 					</div>
-					<div className='row'>
+					<div className='row why-gallery'>
 						<div className='one-third column'>
-							<img src='http://image.flaticon.com/icons/svg/290/290180.svg' width='60%' height='60%' />
-							<h6>Basic shift from eating away from home</h6>
+							<img src='../assets/imgs/store.svg' className='home-svg' />
+							<div className='copy center'>Basic shift from eating away from home</div>
 						</div>
 						<div className='one-third column'>
-							<img src='http://image.flaticon.com/icons/svg/290/290180.svg' width='60%' height='60%' />
-							<h6>Value shopping has led to alternative classes of trade</h6>
+							<img src='../assets/imgs/cart-12.svg' className='home-svg' />
+							<div className='copy center'>Value shopping has led to alternative classes of trade</div>
 						</div>
 						<div className='one-third column'>
-							<img src='http://image.flaticon.com/icons/svg/290/290180.svg' width='60%' height='60%' />
-							<h6>The move from relationship "selling" to "transactions"</h6>
-						</div>
-					</div>
-					<div className='row'>
-						<div className='one-third column'>
-							<img src='http://image.flaticon.com/icons/svg/290/290180.svg' width='60%' height='60%' />
-							<h6>Poor succession planning</h6>
-						</div>
-						<div className='one-third column'>
-							<img src='http://image.flaticon.com/icons/svg/290/290180.svg' width='60%' height='60%' />
-							<h6>Retailer centralization</h6>
-						</div>
-						<div className='one-third column'>
-							<img src='http://image.flaticon.com/icons/svg/290/290180.svg' width='60%' height='60%' />
-							<h6>Manufacturer consolidations</h6>
+							<img src='../assets/imgs/coin-6.svg' className='home-svg' />
+							<div className='copy center'>The move from relationship "selling" to "transactions"</div>
 						</div>
 					</div>
-					<div className='row'>
+					<div className='row why-gallery'>
 						<div className='one-third column'>
-							<img src='http://image.flaticon.com/icons/svg/290/290180.svg' width='60%' height='60%' />
-							<h6>Difficulty in balancing the requirements of both the manufacturer and the retailer</h6>
+							<img src='../assets/imgs/graph-5.svg' className='home-svg' />
+							<div className='copy center'>Poor succession planning</div>
 						</div>
 						<div className='one-third column'>
-							<img src='http://image.flaticon.com/icons/svg/290/290180.svg' width='60%' height='60%' />
-							<h6>High cost of operation</h6>
+							<img src='../assets/imgs/diagram-1.svg' className='home-svg' />
+							<div className='copy center'>Retailer centralization</div>
 						</div>
 						<div className='one-third column'>
-							<img src='http://image.flaticon.com/icons/svg/290/290180.svg' width='60%' height='60%' />
-							<h6>Decline in brokerage rates</h6>
+							<img src='../assets/imgs/box-1.svg' className='home-svg' />
+							<div className='copy center'>Manufacturer consolidations</div>
+						</div>
+					</div>
+					<div className='row why-gallery'>
+						<div className='one-third column'>
+							<img src='../assets/imgs/justice-scale.svg' className='home-svg' />
+							<div className='copy center'>Difficulty in balancing the requirements of both the manufacturer and the retailer</div>
+						</div>
+						<div className='one-third column'>
+							<img src='../assets/imgs/notes-2.svg' className='home-svg' />
+							<div className='copy center'>High cost of operation</div>
+						</div>
+						<div className='one-third column'>
+							<img src='../assets/imgs/graph-4.svg' className='home-svg' />
+							<div className='copy center'>Decline in brokerage rates</div>
 						</div>
 					</div>
 				</div>
