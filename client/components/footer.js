@@ -25,8 +25,7 @@ class Footer extends Component {
               <img src='../assets/imgs/footer-logo.png' width='206px' height='50px' /><br />
               6673 Owens Drive<br />
               Pleasanton, CA 94588<br />
-              Email: contact@tpgsales.com<br />
-              Phone: (925) 555-5555
+              Phone: (925) 556-0512
             </div>
             <div className='three columns'>
               <span className='footer-title'>COMPANY</span><br /><br />
