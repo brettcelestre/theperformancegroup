@@ -227,6 +227,9 @@ ul, .ul {
   height: 1px;
   background-color: #363636; 
 }
+.tab {
+  padding-left: 7%;
+}
 
 html, body {
   height: 100%;
@@ -349,6 +352,7 @@ body {
   text-align: center;
 }
 .offer-copy {
+  padding-left: 10px;
   @include font-styles('Roboto', 100, 1.3rem, black, 1px, 1.4rem);
   text-align: left;
 }

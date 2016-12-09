@@ -229,6 +229,9 @@ ul, .ul {
   height: 1px;
   background-color: #363636; }
 
+.tab {
+  padding-left: 7%; }
+
 html, body {
   height: 100%;
   margin: 0;
@@ -377,6 +380,7 @@ body {
   text-align: center; }
 
 .offer-copy {
+  padding-left: 10px;
   font-family: "Roboto";
   font-weight: 100;
   font-size: 1.3rem;
