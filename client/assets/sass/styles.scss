@@ -386,6 +386,35 @@ body {
   }
 }
 
+/* --- TEAM --- */ 
+.team-header {
+  @include font-styles('Roboto', 500, 1.4rem, #1a1a1a, 1px, 1.4rem);
+}
+.team-members {
+  /*display: flex;*/
+  text-align: center;
+}
+.member {
+  margin: auto 0;
+  display: inline-block;
+  width: 200px;
+  padding: 15px;
+  margin: 15px;
+  @include font-styles('Roboto', 300, 1.2rem, #1a1a1a, 1px, 1.2rem);
+  border-radius: 3px;
+}
+.member:hover {
+  cursor: pointer;
+  background-color: #f6f6f6;
+}
+.bio-img {
+  width: auto;
+  max-width: 175px;
+  height: auto;
+  max-height: 263px;
+  margin-bottom: 10px;
+}
+
 /* --- SERVICES --- */
 .services-banner {
   width: 100%;

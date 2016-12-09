@@ -425,6 +425,44 @@ body {
 .history-content div .ten {
   padding: 0; }
 
+/* --- TEAM --- */
+.team-header {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 1.4rem;
+  color: #1a1a1a;
+  letter-spacing: 1px;
+  line-height: 1.4rem; }
+
+.team-members {
+  /*display: flex;*/
+  text-align: center; }
+
+.member {
+  margin: auto 0;
+  display: inline-block;
+  width: 200px;
+  padding: 15px;
+  margin: 15px;
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 1.2rem;
+  color: #1a1a1a;
+  letter-spacing: 1px;
+  line-height: 1.2rem;
+  border-radius: 3px; }
+
+.member:hover {
+  cursor: pointer;
+  background-color: #f6f6f6; }
+
+.bio-img {
+  width: auto;
+  max-width: 175px;
+  height: auto;
+  max-height: 263px;
+  margin-bottom: 10px; }
+
 /* --- SERVICES --- */
 .services-banner {
   width: 100%;
