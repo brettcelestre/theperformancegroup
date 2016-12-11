@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import { getWeatherData } from '../actions/index.js';
@@ -30,43 +31,43 @@ class Home extends Component {
 					</div>
 					<div className='row why-gallery'>
 						<div className='one-third column'>
-							<img src='../assets/imgs/store.svg' className='home-svg' />
+							<img src='../assets/imgs/svg/store.svg' className='home-svg' />
 							<div className='copy center'>Basic shift from eating away from home</div>
 						</div>
 						<div className='one-third column'>
-							<img src='../assets/imgs/cart-12.svg' className='home-svg' />
+							<img src='../assets/imgs/svg/cart-12.svg' className='home-svg' />
 							<div className='copy center'>Value shopping has led to alternative classes of trade</div>
 						</div>
 						<div className='one-third column'>
-							<img src='../assets/imgs/coin-6.svg' className='home-svg' />
+							<img src='../assets/imgs/svg/coin-6.svg' className='home-svg' />
 							<div className='copy center'>The move from relationship "selling" to "transactions"</div>
 						</div>
 					</div>
 					<div className='row why-gallery'>
 						<div className='one-third column'>
-							<img src='../assets/imgs/graph-5.svg' className='home-svg' />
+							<img src='../assets/imgs/svg/graph-5.svg' className='home-svg' />
 							<div className='copy center'>Poor succession planning</div>
 						</div>
 						<div className='one-third column'>
-							<img src='../assets/imgs/diagram-1.svg' className='home-svg' />
+							<img src='../assets/imgs/svg/diagram-1.svg' className='home-svg' />
 							<div className='copy center'>Retailer centralization</div>
 						</div>
 						<div className='one-third column'>
-							<img src='../assets/imgs/box-1.svg' className='home-svg' />
+							<img src='../assets/imgs/svg/box-1.svg' className='home-svg' />
 							<div className='copy center'>Manufacturer consolidations</div>
 						</div>
 					</div>
 					<div className='row why-gallery'>
 						<div className='one-third column'>
-							<img src='../assets/imgs/justice-scale.svg' className='home-svg' />
+							<img src='../assets/imgs/svg/justice-scale.svg' className='home-svg' />
 							<div className='copy center'>Difficulty in balancing the requirements of both the manufacturer and the retailer</div>
 						</div>
 						<div className='one-third column'>
-							<img src='../assets/imgs/notes-2.svg' className='home-svg' />
+							<img src='../assets/imgs/svg/notes-2.svg' className='home-svg' />
 							<div className='copy center'>High cost of operation</div>
 						</div>
 						<div className='one-third column'>
-							<img src='../assets/imgs/graph-4.svg' className='home-svg' />
+							<img src='../assets/imgs/svg/graph-4.svg' className='home-svg' />
 							<div className='copy center'>Decline in brokerage rates</div>
 						</div>
 					</div>
@@ -98,15 +99,18 @@ class Home extends Component {
 								</div>
 								
 								<div className='row copy'>
-									We feel the Performance Group has addressed many of the keys areas that have adversely effected the traditional food broker. Please keep us in mind when you're looking at alternatives to your current representation.
+									We feel the Performance Group has addressed many of the keys areas that have adversely effected the traditional food broker. Please keep us in mind when youre looking at alternatives to your current representation.
 								</div>
 								
 							</div>
 							
 							<div className='four columns'>
-								<button className='contact-button'>Contact</button>
+								<Link to='/contact'>
+									<button className='contact-button'>Contact</button>
+	              </Link>
 							</div>
 						</div>
+						
 					</div>
 				</div>
 
