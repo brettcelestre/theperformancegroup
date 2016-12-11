@@ -21,7 +21,22 @@ class MarketPlace extends Component {
         <div className='marketplace-banner'>
         </div>
       
-        <h2>Services</h2>
+        <div className='container section-spacer'>
+          
+          <div className='row'>
+            <h3 className='section-header'>Marketplace</h3>
+            <img src='../assets/imgs/marketplace-info.jpg' className='center' width='700px' height='458px' />
+          </div>
+          
+          <div className='row'>
+            <h3 className='section-header'>Clients</h3>
+          </div>
+          
+          <div className='row'>
+            <h3 className='section-header'>Customers</h3>
+          </div>
+        
+        </div>
       </div>
     );  
   }
