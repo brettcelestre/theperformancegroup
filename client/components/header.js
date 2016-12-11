@@ -17,7 +17,9 @@ class Header extends Component {
         <div className='container'>
           <div className='row'>
             <div className='four columns nav-logo'>
-              <img src='../assets/imgs/nav-logo.png' width='246px' height='61px' />
+              <Link to='/home' className='link'>
+                <img src='../assets/imgs/nav-logo.png' width='246px' height='61px' />
+              </Link>
             </div>
             <div className='eight columns'>
               <nav className='menu'>
