@@ -1,5 +1,5 @@
 import React from 'react';
-import { Router, Route, IndexRoute, hashHistory } from 'react-router';
+import { Router, Route, IndexRoute, browserHistory } from 'react-router';
 
 import App from '../components/app'; // Root layout
 
@@ -11,15 +11,15 @@ import News from '../containers/news';
 import Contact from '../containers/contact';
 
 export default (
-  <Router history={ hashHistory }>
+  <Router history={ browserHistory }>
     <Route path="/" component={ App }>
       <IndexRoute component={ Home } />
-      <Route path='/home' component={ Home } />
-      <Route path='/about' component={ About } />
-      <Route path='/services' component={ Services } />
-      <Route path='/marketplace' component={ MarketPlace } />
-      <Route path='/news' component={ News } />
-      <Route path='/contact' component={ Contact } />
+      <Route path='home' component={ Home } />
+      <Route path='about' component={ About } />
+      <Route path='services' component={ Services } />
+      <Route path='marketplace' component={ MarketPlace } />
+      <Route path='news' component={ News } />
+      <Route path='contact' component={ Contact } />
     </Route>
   </Router>
 );
