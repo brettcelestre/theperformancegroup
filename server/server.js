@@ -15,7 +15,8 @@ app.use('/api', router);
 require('./routes/routes.js')(router);
 
 app.all('/*', function(req, res, next) {
-  res.redirect('/');
+  // res.redirect('/');
+  res.sendFile(path.join(__dirname, '../client/index.html'));
 });
 
 app.listen(port, function() {
