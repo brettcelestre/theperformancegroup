@@ -164,166 +164,161 @@ class About extends Component {
         </div>
         
         <div className='container team section-spacer'>
-					<h2 className='section-header'>Team</h2>
+					<h2 className='section-header'>Partners</h2>
 					
-					<div className='row team-header center'>
-						Partners
-					</div>
 					<div className='row team-members'>
 						<div className='member'>
 							<img src='../assets/imgs/bios/costello.gif' className='bio-img' />
-							Phil Costello
+							Phil Costello<br />
+							<span className='job-title'>Partner</span>
 						</div>
 						<div className='member'>
 							<img src='../assets/imgs/bios/martinez.gif' className='bio-img' />
-							Steve Martinez
+							Steve Martinez<br />
+							<span className='job-title'>Partner</span>
 						</div>
 					</div>
 					
-					<div className='row team-header center'>
-						General Manager
-					</div>
+					<h2 className='section-header'>Team</h2>
+
 					<div className='row team-members'>
 						<div className='member'>
 							<img src='../assets/imgs/bios/jenson.gif' className='bio-img' />
-							Jerry Jenson
+							Jerry Jenson<br />
+							<span className='job-title'>General Manager</span>
 						</div>
-					</div>
-					
-					<div className='row team-header center'>
-						Retired/Consultant
-					</div>
-					<div className='row team-members'>
+
 						<div className='member'>
 							<img src='../assets/imgs/bios/metz.gif' className='bio-img' />
-							Tony Metz
+							Tony Metz<br />
+							<span className='job-title'>Retired/Consultant</span>
 						</div>
-					</div>
 					
-					<div className='row team-header center'>
-						Senior Business Manager
-					</div>
-					<div className='row team-members'>
 						<div className='member'>
 							<img src='../assets/imgs/bios/celestre.gif' className='bio-img' />
-							Steve Celestre
+							Steve Celestre<br />
+							<span className='job-title'>Senior Business Manager</span>
 						</div>
+						
 						<div className='member'>
 							<img src='../assets/imgs/bios/adam.gif' className='bio-img' />
-							Julie Adam
+							Julie Adam<br />
+							<span className='job-title'>Senior Business Manager</span>
 						</div>
+						
 						<div className='member'>
 							<img src='../assets/imgs/bios/moore.gif' className='bio-img' />
-							Ken Moore
+							Ken Moore<br />
+							<span className='job-title'>Senior Business Manager</span>
 						</div>
+						
 						<div className='member'>
 							<img src='../assets/imgs/bios/gonzales.gif' className='bio-img' />
-							Dave Gonzales
+							Dave Gonzales<br />
+							<span className='job-title'>Senior Business Manager</span>
 						</div>
-					</div>
-					
-					<div className='row team-header center'>
-						Business Manager
-					</div>
-					<div className='row team-members'>
+
 						<div className='member'>
 							<img src='../assets/imgs/bios/ingram.gif' className='bio-img' />
-							Ron Ingram
+							Ron Ingram<br />
+							<span className='job-title'>Business Manager</span>
 						</div>
+						
 						<div className='member'>
 							<img src='../assets/imgs/bios/hilton.gif' className='bio-img' />
-							Jeremiah Hilton
+							Jeremiah Hilton<br />
+							<span className='job-title'>Business Manager</span>
 						</div>
 						<div className='member'>
 							<img src='../assets/imgs/bios/missing.jpg' className='bio-img' />
-							Rich Mott
+							Rich Mott<br />
+							<span className='job-title'>Business Manager</span>
 						</div>
-					</div>
-					
-					<div className='row team-header center'>
-						Business Manager / Retail Sales Manager
-					</div>
-					<div className='row team-members'>
+
 						<div className='member'>
 							<img src='../assets/imgs/bios/anderson.gif' className='bio-img' />
-							Dave Anderson
+							Dave Anderson<br />
+							<span className='job-title'>Business Manager / Retail Sales Manager</span>
 						</div>
-					</div>
-					
-					<div className='row team-header center'>
-						Customer Sales Manager
-					</div>
-					<div className='row team-members'>
+						
 						<div className='member'>
 							<img src='../assets/imgs/bios/struer.gif' className='bio-img' />
-							Dawn Struer
+							Dawn Struer<br />
+							<span className='job-title'>Customer Sales Manager</span>
 						</div>
+						
 						<div className='member'>
 							<img src='../assets/imgs/bios/morrison.gif' className='bio-img' />
-							Jeff Morrison
+							Jeff Morrison<br />
+							<span className='job-title'>Customer Sales Manager</span>
 						</div>
+						
 						<div className='member'>
 							<img src='../assets/imgs/bios/day.gif' className='bio-img' />
-							Katie Day
+							Katie Day<br />
+							<span className='job-title'>Customer Sales Manager</span>
 						</div>
+						
 						<div className='member'>
 							<img src='../assets/imgs/bios/amorosa.jpg' className='bio-img' />
-							Rich Amorosa
+							Rich Amorosa<br />
+							<span className='job-title'>Customer Sales Manager</span>
 						</div>
+						
 						<div className='member'>
 							<img src='../assets/imgs/bios/copeland.gif' className='bio-img' />
-							Sherry Copeland
+							Sherry Copeland<br />
+							<span className='job-title'>Customer Sales Manager</span>
 						</div>
+						
 						<div className='member'>
 							<img src='../assets/imgs/bios/missing.jpg' className='bio-img' />
-							Adam Martinez
+							Adam Martinez<br />
+							<span className='job-title'>Customer Sales Manager</span>
 						</div>
+						
 						<div className='member'>
 							<img src='../assets/imgs/bios/murphy.gif' className='bio-img' />
-							Charmaine Murphy
+							Charmaine Murphy<br />
+							<span className='job-title'>Customer Sales Manager</span>
 						</div>
-					</div>
-					
-					<div className='row team-header center'>
-						Office Manager
-					</div>
-					<div className='row team-members'>
+
 						<div className='member'>
 							<img src='../assets/imgs/bios/withers.gif' className='bio-img' />
-							Laurie Withers
+							Laurie Withers<br />
+							<span className='job-title'>Office Manager</span>
 						</div>
-					</div>
-					
-					<div className='row team-header center'>
-						Administrative Supervisor
-					</div>
-					<div className='row team-members'>
+
 						<div className='member'>
 							<img src='../assets/imgs/bios/colli.gif' className='bio-img' />
-							Diane Colli
+							Diane Colli<br />
+							<span className='job-title'>Administrative Supervisor</span>
 						</div>
-					</div>
-					
-					<div className='row team-header center'>
-						Administrative Assistant
-					</div>
-					<div className='row team-members'>
+
 						<div className='member'>
 							<img src='../assets/imgs/bios/humes.gif' className='bio-img' />
-							Stacy Humes
+							Stacy Humes<br />
+							<span className='job-title'>Administrative Assistant</span>
 						</div>
+						
 						<div className='member'>
 							<img src='../assets/imgs/bios/Valdez.gif' className='bio-img' />
-							Marta Valdez
+							Marta Valdez<br />
+							<span className='job-title'>Administrative Assistant</span>
 						</div>
+						
 						<div className='member'>
 							<img src='../assets/imgs/bios/church.gif' className='bio-img' />
-							Deanna Church
+							Deanna Church<br />
+							<span className='job-title'>Administrative Assistant</span>
 						</div>
+						
 						<div className='member'>
 							<img src='../assets/imgs/bios/lund.gif' className='bio-img' />
-							Sara Lund
+							Sara Lund<br />
+							<span className='job-title'>Administrative Assistant</span>
 						</div>
+						
 					</div>
 					
         </div>

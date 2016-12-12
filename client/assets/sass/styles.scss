@@ -403,6 +403,7 @@ body {
   text-align: center;
 }
 .member {
+  vertical-align: top;
   margin: auto 0;
   display: inline-block;
   width: 200px;
@@ -414,6 +415,9 @@ body {
 .member:hover {
   /*cursor: pointer;*/
   background-color: #f6f6f6;
+}
+.job-title {
+  @include font-styles('Roboto', 300, .85rem, #1a1a1a, 1px, .9rem);
 }
 .bio-img {
   width: auto;
@@ -524,6 +528,9 @@ footer {
   height: auto;
   min-height: 175px;
   max-height: 300px;
+}
+.send-btn {
+  background-color: #27b8c5;
 }
 
 #map {
